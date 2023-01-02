@@ -1,7 +1,9 @@
 package pwx.codecopy.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import pwx.codecopy.util.r.R;
 
 /**
  * @author pwx
@@ -13,7 +15,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/activity/chimeng/rushBuy")
 public class SysCodeController {
 
-
+    @GetMapping("/")
+    public R add(){
+        return null;
+    }
 
 
 }
